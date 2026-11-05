@@ -36,6 +36,11 @@ Shared skills live in `.agents/skills/`, one folder each, `SKILL.md` inside. Tha
 one source for every harness on the team. If yours loads skills from somewhere else, point it
 here (a link or a config entry). Don't copy: copies drift.
 
+- `plan-to-issues`: splits `plan.md` into issues. Its "Issue shape" section is what every issue
+  here carries.
+- `preview-deploy`: puts a page on its public preview link, checks it, and takes the marker off
+  after review (ADR 0003).
+
 ## Rules
 
 - Never commit `.env`, tokens or previews.
